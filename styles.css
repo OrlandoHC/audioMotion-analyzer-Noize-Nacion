@@ -148,12 +148,25 @@ ul {
 	100% { -webkit-mask-position: -10%; }
 }
 
+
 #audio,
 #video {
 	display: block;
 	width: 100%;
 }
-
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
 .analyzer-configuration {
 	background: #fff1;
 	border: 1px solid #ccc8;
